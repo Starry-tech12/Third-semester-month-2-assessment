@@ -1,0 +1,7 @@
+.git
+.gitignore
+scripts/
+kubernetes/
+evidence/
+*.log
+.env

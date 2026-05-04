@@ -1,38 +1,15 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+Server/MuchToDo/muchtodo-app
+**Remove it from tracking** (this won't delete it from your computer, just from GitHub):
+    ```bash
+    git rm --cached Server/MuchToDo/muchtodo-app
+    git commit -m "chore: remove binary from tracking"
+    git push origin main
+    ```
 
-# Test binary, built with `go test -c`
-*.test
-
-# Code coverage profiles and other test artifacts
-*.out
-coverage.*
-*.coverprofile
-profile.cov
-
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
-go.work
-go.work.sum
-
-# env file
-.env
-
-# Editor/IDE
-# .idea/
-# .vscode/
-
-# extra files
-docker-compose.test.yaml
-mongodb.key
-mongo-keyfile
+### What's next?
+Now that the **Docker** portion is pushed, you've successfully:
+*   [x] Containerized the Golang API.
+*   [x] Linked it to MongoDB and Redis via Docker Compose.
+*   [x] Fixed the environment variable mapping.
+*   [x] Pushed everything to your Assessment Repo.
 
